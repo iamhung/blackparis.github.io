@@ -1,0 +1,41 @@
+
+.container-fluid{
+    width:100%;
+    height:auto;
+    padding:0px;
+
+}
+.nav-link{
+    color:aliceblue;
+}
+.container-top--header{
+    
+    height:auto;
+}
+
+.col-top--header{
+    background-color:#02aeb0;
+}
+.col-top--content{
+    margin-top:20%;
+    margin-left:10%;
+    font-size: 100px;
+}
+h1{
+    font-size:50px;
+}
+.col-top--footer{
+  
+    text-align:center;
+    height:200px;
+    color:aliceblue;
+    padding-top:40px;
+}
+.row-content{
+    display:flex;
+}
+.col-content{
+    min-height:1000px;
+}
+
+
