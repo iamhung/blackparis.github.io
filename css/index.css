@@ -1,10 +1,9 @@
 body{
     background-image:url(/img/BG/Ghostblade\ kị\ sĩ.jpg); 
-    background-size:100% auto;
-    
-    height:auto;
+    background-size: cover;
     background-repeat:no-repeat;
     background-position: 20%;
+    background-attachment: fixed;
 }
 .container-fluid{
     width:auto;
@@ -48,10 +47,10 @@ body{
     padding:5% 10% 5% 10%;
 }
 .col-mid{
-    margin-top: 30%;
+    margin-top: 27%;
 }
 h1{
-    font-size:220%;
+    font-size:240%;
     color:white;
 }
 .socialnetworks{
@@ -62,10 +61,13 @@ h1{
 }
 .row-bottom{
     text-align: center;
-    margin-top: 10%;
+    margin-top: 13%;
     
 }
-
+footer{
+    
+    text-align: center;
+}
 /* 16 */
 .btn-16 {
     border: none;
