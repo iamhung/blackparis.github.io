@@ -1,0 +1,30 @@
+@media screen and (max-width:739px) {
+    /* .text_content {
+        font-size: 22px;
+    }
+    .spinner-border {
+        max-width: 18px;
+        max-height: 18px;
+    } */
+    .row-mid {
+        margin-top: 50%;
+    }
+    .row-bottom {
+        margin-top: 30%;
+
+    }
+    .row-top {
+        
+        max-width: 70%;
+    }
+    
+}
+@media screen and (min-width:739px) and (max-width:1000px) {
+    .row-mid {
+        margin-top: 35%;
+    }
+    .row-bottom {
+        margin-top: 20%;
+
+    }
+}

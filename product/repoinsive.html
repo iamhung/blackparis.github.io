@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Repoinsive_demo</title>
+    <style>
+        * {
+            margin:0px;
+            
+        }
+        .mobile,
+        .tablet,
+        .pc {
+            color:white;
+            font-size: 100px;
+            display:none;
+            text-align: center;
+            background-color: rgb(0, 162, 255);
+            height:100vh;
+        }
+        /* Mobile <= 740px */
+        @media screen and (max-width:739px) {
+            .mobile {
+                display:block;
+            }
+        }
+        /* tablet >= 740px and width <= 1024px  */
+        @media screen and (min-width:740px) and (max-width:1023px) {
+            .tablet {
+                
+                display:block;
+
+            }
+        }
+        /* PC >= 1024px */
+        @media screen and (min-width:1024px) {
+            .pc {
+                display:block;
+
+            }
+        }
+    </style>
+</head>
+<body>
+    <h1 class="mobile">Mobile</h1>
+    <h1 class="tablet">Tablet</h1>
+    <h1 class="pc">PC</h1>
+</body>
+</html>
