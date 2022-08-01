@@ -30,6 +30,7 @@
 //         window.location.href='/html/starbucks_home.html';
 //     }
 
+
 var dataprompt = prompt('Đây là web riêng tư !!!') ;
 // var delay = setTimeout(function(){
 //     window.location.href='/index.html';
@@ -39,7 +40,7 @@ if(dataprompt == 'iamhung'){
     // document.write('Hi ' + dataprompt + '<br/>' + ' Wellcome to my Website');
     window.location.href='/html/starbucks_home.html';
 } else {
-    document.write('Xin lỗi ' + dataprompt + '<br/>' + ' Bạn không được phép truy cập Website này !!!')
+    document.write('Xin lỗi vì sự bất tiện này...'+ '<br/>' + ' Bạn sẽ được quay lại trang index !!!')
     setTimeout(function(){
         window.location.href='/index.html';
     },2500);
@@ -47,7 +48,3 @@ if(dataprompt == 'iamhung'){
     
 
     
-// document.write('Hi ' + dataprompt + '<br/>' + ' Wellcome to my Website');
-
-// return window.location.href='/html/starbucks_home.html';
-// setTimeout(return window.location.href='/html/starbucks_home.html', 2);
