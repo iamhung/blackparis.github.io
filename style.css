@@ -1,0 +1,286 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+.container-fluid {
+  margin: 0;
+  padding: 0;
+}
+.container-fluid a {
+  text-decoration: none;
+}
+.container-fluid li {
+  list-style-type: none;
+  margin-top: 13px;
+}
+.container-fluid .banner video {
+  z-index: 10;
+}
+.container-fluid .nav {
+  width: 100%;
+  background-color: rgba(117, 115, 115, 0.096);
+  position: fixed;
+  top: 0;
+  z-index: 100;
+}
+.container-fluid .nav i {
+  margin-top: 17px;
+  width: 25px;
+  color: white;
+}
+.container-fluid .nav.sticky {
+  background: rgb(0, 0, 0);
+}
+.container-fluid .nav a {
+  color: white;
+}
+.container-fluid .nav:hover {
+  background: rgb(0, 0, 0);
+}
+.container-fluid .nav ul {
+  display: flex;
+  justify-content: space-evenly;
+}
+.container-fluid .nav .nav_women:hover .women_hover {
+  display: block;
+}
+.container-fluid .nav .nav_women .women_hover {
+  background: rgb(0, 0, 0);
+  width: 100%;
+  left: 0;
+  min-height: 300px;
+  display: none;
+  position: absolute;
+}
+.container-fluid .nav .nav_women .women_hover .line {
+  background: white;
+  width: 48px;
+  margin-left: 41%;
+  height: 1px;
+}
+.container-fluid .move {
+  display: none;
+}
+.container-fluid .move.display {
+  display: flex;
+}
+.container-fluid .move a img {
+  border-radius: 10px;
+  width: 50px;
+  float: right;
+  position: fixed;
+  z-index: 1;
+  right: 20px;
+  bottom: 20px;
+  box-shadow: 1px 1px 5px 2px rgb(247, 247, 247);
+}
+.container-fluid .main {
+  width: 80%;
+  margin: auto;
+}
+.container-fluid .main a {
+  color: black;
+}
+.container-fluid .main .new_products img {
+  width: 100%;
+  padding-bottom: 10px;
+}
+.container-fluid .main .new_products .new_products-list {
+  display: flex;
+  justify-content: center;
+}
+.container-fluid .main .new_products .new_products-list p {
+  padding-left: 5px;
+  padding-right: 5px;
+  opacity: 0.5;
+}
+.container-fluid .main .new_products .new_products-list p:hover {
+  opacity: 1;
+  transform: scale(1.1);
+  cursor: pointer;
+}
+.container-fluid .main .new_products .new_products-list .men.opacity,
+.container-fluid .main .new_products .new_products-list .women.opacity,
+.container-fluid .main .new_products .new_products-list .accessories.opacity {
+  opacity: 1;
+}
+.container-fluid .main .new_products .new_products-item {
+  width: 24%;
+  background-color: rgb(255, 255, 255);
+  border-radius: 10px;
+  padding: 7px;
+  margin: 0.5%;
+  box-shadow: 0px 2px 10px 0px rgb(121, 116, 116);
+}
+.container-fluid .main .new_products .new_products-item p {
+  color: red;
+}
+.container-fluid .main .new_products .new_products-slider--women,
+.container-fluid .main .new_products .new_products-slider--accessories {
+  display: none;
+}
+
+.more1 {
+  background-image: url(/img/NFT.webp);
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.more1, .more2 {
+  padding: 20px 0;
+}
+.more1 .more, .more2 .more {
+  width: 70%;
+  margin: auto;
+}
+.more1 .more video, .more2 .more video {
+  border-radius: 10px;
+  cursor: pointer;
+}
+.more1 .more .text-white, .more2 .more .text-white {
+  margin-top: 30px;
+}
+.more1 .more button, .more2 .more button {
+  border-radius: 5px;
+}
+.more1 .more button a, .more2 .more button a {
+  text-decoration: none;
+  color: black;
+}
+
+.more2 {
+  background-image: url(/img/shop7.webp);
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.video_list {
+  width: 90%;
+  margin: auto;
+  margin-top: 15px;
+  cursor: pointer;
+}
+.video_list .bg {
+  width: 100%;
+  height: 1px;
+  background-color: black;
+  margin: 30px;
+}
+.video_list video {
+  margin: 30px 0;
+  width: 15%;
+  border-radius: 10px;
+  box-shadow: 1px 1px 5px 1px rgb(61, 60, 60);
+  margin: 10px;
+}
+.video_list .video_center {
+  margin-bottom: 70px;
+}
+.video_list .video1.transform,
+.video_list .video2.transform,
+.video_list .video3.transform,
+.video_list .video4.transform,
+.video_list .video5.transform {
+  transform: scale(1.2);
+  transition-duration: 0.8s;
+}
+.video_list .video1.transformOut,
+.video_list .video2.transformOut,
+.video_list .video3.transformOut,
+.video_list .video4.transformOut,
+.video_list .video5.transformOut {
+  transform: scale(0.8);
+  transition-duration: 0.8s;
+}
+
+.contacts {
+  width: 60%;
+  margin: auto;
+}
+.contacts .contact {
+  margin: 60px 0 30px 0;
+  display: flex;
+}
+.contacts .contact img {
+  width: 40%;
+  border-radius: 10px;
+  box-shadow: 1px 1px 5px 1px rgb(61, 60, 60);
+  transition-duration: 0.5s;
+  cursor: pointer;
+}
+.contacts .contact img:hover {
+  transform: scale(1.1);
+}
+.contacts .contact form {
+  margin: 30px 0 0 60px;
+  width: 60%;
+}
+.contacts .contact form h2 {
+  margin-right: 120px;
+}
+.contacts .contact form label {
+  width: 20%;
+}
+.contacts .contact form input {
+  width: 40%;
+  margin-right: 20%;
+  margin-top: 20px;
+}
+.contacts .contact form .submit {
+  margin-top: 20px;
+  width: 80px;
+}
+.contacts .socialnetwork img {
+  width: 30px;
+  height: 30px;
+  border-radius: 10px;
+  margin: 5px;
+  margin-bottom: 50px;
+  box-shadow: 0px 0px 5px 1px rgb(143, 142, 142);
+}
+.contacts .socialnetwork img:hover {
+  transform: scale(1.1);
+}
+
+.footer {
+  display: flex;
+  width: 100%;
+  background: rgb(0, 0, 0);
+}
+.footer .left {
+  width: 30%;
+}
+.footer .left video {
+  width: 70%;
+  margin: auto;
+  margin: 30px 0;
+  border-radius: 10px;
+}
+.footer .right {
+  width: 60%;
+}
+.footer .right img {
+  margin-top: 50px;
+  width: 10%;
+}
+.footer .right section {
+  display: flex;
+  margin-top: 80px;
+}
+.footer .right section a {
+  text-decoration: none;
+  color: white;
+}
+.footer .right section .footer1, .footer .right section .footer2, .footer .right section .footer3, .footer .right section .footer4 {
+  width: 8%;
+  margin: 20px;
+  margin: auto;
+}
+.footer .iamhung {
+  margin-top: 130px;
+}
+.footer .iamhung .fa-brands {
+  width: 40px;
+}/*# sourceMappingURL=style.css.map */

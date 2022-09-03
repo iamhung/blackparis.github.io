@@ -4,100 +4,229 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>iamhungOielts</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">    
-    <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="./css/index.css" >
-    <link rel="stylesheet" href="/css/repoinsive.css">
+    <title>success</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" class="">
+    <link rel="stylesheet" href="/style.css">
+    <link rel="stylesheet" href="/bootstrap/css/bootstrap.min.css" class="">
+    
 </head>
 <body>
-  <div class="container-fluid">
-
-      <section class="container">
-        <div class="row-top">
-            <div class="col-top">
-              <div class="frame">
-                <a href="/index.html" class="custom-btn btn-16 nav-link nav-sm ">
-                  <span class="iamhungOielts">iamhung<span class="spinner-border text-info sniper_top iamhungOielts"></span>ielts</span>
-                </a>
-                <a class="custom-btn btn-16 nav-link nav-item"  href="/html/test.html">Test</a>
-                <!-- <a class="custom-btn btn-16 nav-link nav-item"  href="/html/login.html">Đăng Nhập</a>
-                <a class="custom-btn btn-16 nav-link nav-item"  href="/html/signup.html">Đăng Ký</a> -->
-
-                <li class="custom-btn btn-16 dropdown">
-                  <a class=" dropdown-toggle nav-link nav-item" data-bs-toggle="dropdown"  href="#">Product</a>
-                  <ul class="dropdown-menu">
-                    <li><a class="custom-btn btn-16 dropdown-item" href="/html/home.html" >Home</a></li> 
-                    <li><a class="custom-btn btn-16 dropdown-item"  href="/html/starbucks_home.html">Starbucks_Home</a></li>
-                    <li><a class="custom-btn btn-16 dropdown-item"  href="/html/animation_pepsi.html">Animation</a></li>
-                    <li><a class="custom-btn btn-16 dropdown-item"  href="/html/product_shoes.html">Shoes</a></li>
-                    <li><a class="custom-btn btn-16 dropdown-item"  href="/html/repoinsive.html">Repoinsive</a></li>
-                    <li><a class="custom-btn btn-16 dropdown-item"  href="/html/Button Animation.html">Button</a></li>
-                    <li><a class="custom-btn btn-16 dropdown-item"  href="/html/software.html">Software</a></li>
-                  </ul>
-                </li>
-                
-                <!-- <a class="custom-btn btn-16 nav-link nav-item"  href="/php/dangky.php">Đăng Ký</a>
-                <a class="custom-btn btn-16 nav-link nav-item"  href="/php/dangnhap.php">Đăng Nhập</a> -->
-              </div>
-              
-                <!-- <ul class="nav nav-tabs">
-                    <li class="nav-item">
-                      <a class="nav-link text-white "  title="iamhungOielts" href="/html/aboutme.html">iamhungOielts</a>
+    <!-- banner -->
+    <div class="banner">
+        <video autoplay muted preload="auto" width="100%">
+            <source src="/img/demo (online-video-cutter.com).mp4">
+        </video>
+    </div>
+    <!-- container -->
+    <div class="container-fluid">
+        <!-- nav -->
+        <div class="nav row">
+                <div class="logo col-4">
+                    <ul><li class=""><a href="#">BlvckParis</a></li></ul>
+                </div>
+                <div class="col-6">
+                <ul>
+                    <li class="nav_women"><a href="#">Women</a>
+                        <div class="women_hover">
+                            <div class="line"></div>
+                        </div>
                     </li>
-                    <li class="nav-item">
-                      <a class="nav-link text-white" href="/html/js.html" title="Javascript">JS</a>
-                    </li>
-                    <li class="nav-item dropdown ">
-                      <a class="nav-link dropdown-toggle text-white" data-bs-toggle="dropdown" title="click me" href="#">click me</a>
-                      <ul class="dropdown-menu">
-                        <li><a class="dropdown-item" title="button" href="/html/Button Animation.html">Button</a></li>
-                        <li><a class="dropdown-item" title="comment" href="/html/cmt.html">Comment</a></li>
-                        <li><a class="dropdown-item" title="nothing" href="#">nothing</a></li>
-                      </ul>
-                    </li>
-                    
-                    <li class="nav-item">
-                      <a class="nav-link disabled" href="#">Disabled</a>
-                    </li>
-                  </ul> -->
+                    <li class="nav_men"><a href="#">Men</a></li>
+                    <li class=""><a href="#">Accessories</a></li>
+                    <li class=""><a href="#">All Products</a></li>
+                    <li class=""><a href="#">Contact</a></li>
+                </ul>
+                </div>
+                <div class="col-2">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                    <a>
+                        <i class="fa-solid fa-cart-shopping" title="cart-shopping"></i>
+                    </a>
+                    <a>
+                        <i class="fa-regular fa-user" title="User"></i>
+                    </a>
+            </div>
+            
+        </div>
+            
+        <div class="main">
+            <div class="new_products mt-3">       
+                <h3>New Products</h3>
+                <div class="new_products-list mb-3">
+                    <p class='women' onclick="newPDwomen()">Women </p> -
+                    <p class='men' onclick="newPDmen()">Men </p> -
+                    <p class='accessories' onclick="newPDaccessories()">Accessories </p>
+                </div>
+                <div class="new_products-slider--women row" >
+                    <div class="new_products-item col-3">
+                        <a href=""><img src="/img/npwm1.webp">Blvck Shirt </a><p>500.000 đ</p>
+                    </div>
+                    <div class="new_products-item col-3">
+                        <a href=""><img src="/img/npwm1b 'Blvck x Whte' Cashmere Sweater.webp">Blvck x Whte' Cashmere Sweater</a><p>200.000 đ</p>
+                    </div>
+                    <div class="new_products-item col-3">
+                        <a href=""><img src="/img/npwm2 Blvck on Blvck Embossed Hoodie.webp">Blvck on Blvck Embossed Hoodie</a><p>200.000 đ</p>
+                    </div>
+                    <div class="new_products-item col-3">
+                        <a href=""><img src="/img/npwm2a.webp">Blvck Nylon Shirt</a><p>200.000 đ</p>
+                    </div>
+                </div>
+                <div class="new_products-slider--men row">
+                    <div class="new_products-item col-3" >
+                        <a href=""><img src="/img/np1 Blvck Nylon Shirt.webp">Blvck Nylon Shirt </a><p>600.000 đ</p>
+                    </div>
+                    <div class="new_products-item col-3">
+                        <a href=""><img src="/img/np5 Blvck Tokyo Shorts.webp">Blvck Tokyo Short</a><p>200.000 đ</p>
+                    </div>
+                    <div class="new_products-item col-3">
+                        <a href=""><img src="/img/np3 'Blvck x Whte' Cashmere Sweater.webp">Whte' Cashmere Sweater</a><p>200.000 đ</p>
+                    </div>
+                    <div class="new_products-item col-3">
+                        <a href=""><img src="/img/np4 Blvck Bold Fleece Jacket.webp">Blvck Bold Fleece Jacket</a><p>200.000 đ</p>
+                    </div>
+                </div>
+                <div class="new_products-slider--accessories row" >
+                    <div class="new_products-item col-3">
+                        <a href=""><img src="/img/book and pen Blvck Notebook with Pen.webp">Blvck Notebook with Pen</a><p>200.000 đ</p>
+                    </div>
+                    <div class="new_products-item col-3">
+                        <a href=""><img src="/img/np2 'Blvck x Whte' Basketball.webp">'Blvck x Whte' Basketball</a><p>200.000 đ</p>
+                    </div>
+                    <div class="new_products-item col-3">
+                        <a href=""><img src="/img/access teddy Blvck Evil Teddy Bear Keychain.webp">Blvck Evil Teddy Bear Keychain</a><p>200.000 đ</p>
+                    </div>
+                    <div class="new_products-item col-3">
+                        <a href=""><img src="/img/Blvck Desktop Set.webp">Blvck Desktop Set</a><p>200.000 đ</p>
+                    </div>
+                </div>
             </div>
         </div>
-        <div class="row-mid">
-            <div class="col-mid">
-                <h1 class="text_content"><!-- <kbd>Hi,</kbd>--> Hi, My name is <span style="color:#00fbff;">Nguyen Vinh Hung</span> 
-                <br/>I'am Fr<span class="spinner-border text-info"></span>nt-end Developer</h1> 
-                <!-- <button  type="button" class="btn btn-outline-info " data-bs-toggle="collapse" data-bs-target="#demo">có gì đó ở đây nè !!!</button>
-                <div id="demo" class="collapse"> -->
-                  
-                  <!-- <iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/51bYFYWODfYOZU0rwvjiCc?utm_source=generator" 
-                  width="20%" height="80" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>  
-                  <iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/5fFLotKS1286huYIMQHqz7?utm_source=generator" 
-                  width="20%" height="80" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
-                  <iframe class="music-duchomaivesau" src="https://open.spotify.com/embed/track/4Iz5EWPCAT8jYNk4IpLoll?utm_source=generator" 
-                  width="20%" height="80" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>  -->
-            </div>  
+        <div class="move">
+            <a href="#"><img src="/img/logo_dọc.jpg"></a>
         </div>
-        <div class="row-bottom">
-          <div class="col-bottom ">
-            <!-- <footer class="blockquote-footer">by iamhung --</footer> -->
-            <div class="socialnetworks ">
-              <a class="socialnetwork" href="https://www.facebook.com/iamhungOielts" title="facebook"><img src="img/img_index/facebook.png" width="25px" ></a>
-              <a class="socialnetwork" href="https://mail.google.com/mail/u/1/#inbox" title="nguyenvinhhung2307@gmail.com"><img src="img/img_index/gmail.png" width="25px" ></a>
-              <a class="socialnetwork" href="https://github.com/iamhung" title="github"><img src="img/img_index/github (1).png" width="25px" ></a>
-              <a class="socialnetwork" href="https://chat.zalo.me/" title="zalo"><img src="img/img_index/zalo.png" width="25px" ></a>
-              <a class="socialnetwork" href="https://www.linkedin.com/feed/" title="linkedin"><img src="img/img_index/linkedin.png" width="25px" ></a>
-              <a class="socialnetwork" href="https://www.instagram.com/" title="instagram"><img src="img/img_index/instagram (1).png" width="25px" ></a>
-              
+    </div>
+    <div class="more1 mt-4">
+        <div class="more row">
+            <div class="col-6">
+                <video controls width="100%">
+                    <source src="/img/Blvck Paris.mp4">
+                </video>
             </div>
-          </div>
+            <div class="col-6 mt-5 text-white">
+                <h3>Blvck Genesis NFT Collection</h3>
+                <p>Proud to announce the Blvck Genesis NFT collection, a unique and never-seen-before NFT collection of avatars created by the lifestyle brand, Blvck Paris.</p>
+                <button class="p-1"><a href="#">More...</a></button>
+            </div>
+        </div>
+    </div> 
+    <div class="contacts">
+        <div class="contact">
+            <img src="/img/shop1.webp">
+            
+            <form>
+                <h2>Contact Us</h2>
+                <label for="name ">Your Name :</label>
+                <input type="texts">
+                <label for="name">Your Email :</label>
+                <input type="texts">
+                <label for="name">Message :</label>
+                <input type="texts">
+                <input class="submit" type="submit" value="Submit">
+            </form>
+            <div class="null"></div>
         </div>
         
+        <div class="socialnetwork">
+            <a href="" title="facebook"><img src="/img/icon/facebook.png" ></a>
+            <a href="" title="instagram" ><img src="/img/icon/instagram.png"></a>
+            <a href="" title="tiktok"><img src="/img/icon/tiktok.png"></a>
+            <a href="" title="youtube"><img src="/img/icon/youtube.png"></a>
         </div>
-      </section>
-      
     </div>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
-    <script src="js/index.js"></script>
+    <div class="video_list" >
+        <div class="bg"></div>
+        <video controls class="video_center video1">
+            <source src="/img/video/even_video.mp4" width="20%"></source>
+        </video>
+        <video controls class="video2">
+            <source src="/img/video/shop2_video.mp4" width="20%"></source>
+        </video>
+        <video controls class="video_center video3">
+            <source src="/img/video/book_video.mp4" width="20%"></source>
+        </video>
+        <video controls class="video4">
+            <source src="/img/video/shop1_video.mp4" width="20%"></source>
+        </video>
+        <video controls class="video_center video5">
+            <source src="/img/video/accessories.mp4" width="20%"></source>
+        </video>
+        <div class="bg"></div>
+    </div>
+    <div class="more2 mt-4">
+        <div class="more row">
+            <div class="col-6 mt-5 text-white">
+                <h3>An Inside Look at Blvck Store</h3>
+                <p>The shop was built with the Blvck lifestyle aesthetic featuring black ice creams, a basket ball hoop, a coffee corner, a unique limited edition 1meter tall Blvck Teddy bear, alongside with the brand’s popular lifestyle accessories throughout the room.</p>
+                <button class="p-1"><a href="#">More...</a></button>
+            </div>
+            <div class="col-6">
+                <video controls width="100%">
+                    <source src="/img/Blvck Genesis Act I- Phantoms.mp4">
+                </video>
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+        <div class="left">
+            <video autoplay loop muted>
+                <source src="/img/video/footer_video.mp4" width="20%"></source>
+            </video>
+        </div>
+        <div class="right">
+            <img src="/img/logo.webp">
+            <section>
+                <div class="footer1">
+                    <a href="">COLLECTIONS</a>
+                    <a href="">COLLECTIONS</a>
+                    <a href="">COLLECTIONS</a>
+                    <a href="">COLLECTIONS</a>
+                    <a href="">COLLECTIONS</a>
+                </div>
+                <div class="footer2">
+                    <a href="">INFORMATION</a>
+                    <a href="">INFORMATION</a>
+                    <a href="">INFORMATION</a>
+                    <a href="">INFORMATION</a>
+                    <a href="">INFORMATION</a>
+                </div>
+                <div class="footer3">
+                    <a href="">MORE</a>
+                    <a href="">MORE</a>
+                    <a href="">MORE</a>
+                    <a href="">MORE</a>
+                    <a href="">MORE</a>
+                </div>
+                <div class="footer4">
+                    <a href="">SOCIAL</a>
+                    <a href="">SOCIAL</a>
+                    <a href="">SOCIAL</a>
+                    <a href="">SOCIAL</a>
+                    <a href="">SOCIAL</a>
+                </div>
+                
+            </section>
+            <div class="iamhung">
+                <p>Design By iamhung</p>
+                <i class="fa-brands fa-html5" title="HTML5"></i>
+                <i class="fa-brands fa-css3-alt" title="CSS"></i>
+                <i class="fa-brands fa-square-js" title="Javascript"></i>
+                <i class="fa-brands fa-sass" title="Sass"></i>
+            </div>
+        </div>
+    </div>
+
+    <script src="/bootstrap/js/bootstrap.min.js"></script>
+    <script src="/style.js"></script>
 </body>
 </html>
+
