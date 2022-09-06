@@ -46,19 +46,137 @@
 .container-fluid .nav .nav_women:hover .women_hover {
   display: block;
 }
+.container-fluid .nav .nav_women:hover .line {
+  display: block;
+}
+.container-fluid .nav .nav_women .line {
+  background: white;
+  width: 85%;
+  margin: auto;
+  height: 1px;
+  display: none;
+}
 .container-fluid .nav .nav_women .women_hover {
-  background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.705);
   width: 100%;
   left: 0;
   min-height: 300px;
   display: none;
   position: absolute;
 }
-.container-fluid .nav .nav_women .women_hover .line {
+.container-fluid .nav .nav_women .women_hover .clothes {
+  color: white;
+  float: left;
+  width: 40%;
+  margin-top: 50px;
+  display: grid;
+}
+.container-fluid .nav .nav_women .women_hover .clothes a {
+  width: 100%;
+  margin: 30px 0px 0 100px;
+  font-weight: 500;
+}
+.container-fluid .nav .nav_women .women_hover .women_img {
+  width: 60%;
+  display: flex;
+}
+.container-fluid .nav .nav_women .women_hover .women_img .women_img1:hover a {
+  opacity: 0.6;
+}
+.container-fluid .nav .nav_women .women_hover .women_img .women_img1:hover img {
+  opacity: 1;
+}
+.container-fluid .nav .nav_women .women_hover .women_img .women_img2 {
+  margin-left: 1px;
+}
+.container-fluid .nav .nav_women .women_hover .women_img .women_img2:hover a {
+  opacity: 0.6;
+}
+.container-fluid .nav .nav_women .women_hover .women_img .women_img2:hover img {
+  opacity: 1;
+}
+.container-fluid .nav .nav_women .women_hover .women_img img {
+  position: relative;
+  margin-top: 30px;
+  width: 50%;
+  opacity: 0.8;
+  width: 100%;
+  height: 380px;
+}
+.container-fluid .nav .nav_women .women_hover .women_img a {
+  position: absolute;
+  margin: 170px 0 0 65px;
+  font-size: 37px;
+  font-weight: 500;
+  z-index: 1;
+}
+.container-fluid .nav .nav_men:hover .men_hover {
+  display: block;
+}
+.container-fluid .nav .nav_men:hover .line {
+  display: block;
+}
+.container-fluid .nav .nav_men .line {
   background: white;
-  width: 48px;
-  margin-left: 41%;
+  width: 85%;
+  margin: auto;
   height: 1px;
+  display: none;
+}
+.container-fluid .nav .nav_men .men_hover {
+  background: rgba(0, 0, 0, 0.705);
+  width: 100%;
+  left: 0;
+  min-height: 300px;
+  display: none;
+  position: absolute;
+}
+.container-fluid .nav .nav_men .men_hover .clothes {
+  color: white;
+  float: left;
+  width: 40%;
+  margin-top: 20px;
+  display: grid;
+  margin-top: 50px;
+}
+.container-fluid .nav .nav_men .men_hover .clothes a {
+  width: 100%;
+  margin: 20px 0px 0 100px;
+  font-weight: 500;
+}
+.container-fluid .nav .nav_men .men_hover .men_img {
+  width: 60%;
+  display: flex;
+}
+.container-fluid .nav .nav_men .men_hover .men_img .men_img1:hover a {
+  opacity: 0.6;
+}
+.container-fluid .nav .nav_men .men_hover .men_img .men_img1:hover img {
+  opacity: 1;
+}
+.container-fluid .nav .nav_men .men_hover .men_img .men_img2 {
+  margin-left: 1px;
+}
+.container-fluid .nav .nav_men .men_hover .men_img .men_img2:hover a {
+  opacity: 0.6;
+}
+.container-fluid .nav .nav_men .men_hover .men_img .men_img2:hover img {
+  opacity: 1;
+}
+.container-fluid .nav .nav_men .men_hover .men_img img {
+  position: relative;
+  margin-top: 30px;
+  width: 50%;
+  opacity: 0.8;
+  width: 100%;
+  height: 380px;
+}
+.container-fluid .nav .nav_men .men_hover .men_img a {
+  position: absolute;
+  margin: 170px 0 0 65px;
+  font-size: 37px;
+  font-weight: 500;
+  z-index: 1;
 }
 .container-fluid .move {
   display: none;
@@ -83,30 +201,37 @@
 .container-fluid .main a {
   color: black;
 }
-.container-fluid .main .new_products img {
+.container-fluid .main .new_productss img {
   width: 100%;
   padding-bottom: 10px;
 }
-.container-fluid .main .new_products .new_products-list {
+.container-fluid .main .new_productss .new_products-list {
   display: flex;
   justify-content: center;
 }
-.container-fluid .main .new_products .new_products-list p {
+.container-fluid .main .new_productss .new_products-list p {
   padding-left: 5px;
   padding-right: 5px;
   opacity: 0.5;
 }
-.container-fluid .main .new_products .new_products-list p:hover {
+.container-fluid .main .new_productss .new_products-list p:hover {
   opacity: 1;
   transform: scale(1.1);
   cursor: pointer;
 }
-.container-fluid .main .new_products .new_products-list .men.opacity,
-.container-fluid .main .new_products .new_products-list .women.opacity,
-.container-fluid .main .new_products .new_products-list .accessories.opacity {
+.container-fluid .main .new_productss .new_products-list .newproducts {
+  opacity: 0.5;
+}
+.container-fluid .main .new_productss .new_products-list .newproducts.opacity {
   opacity: 1;
 }
-.container-fluid .main .new_products .new_products-item {
+.container-fluid .main .new_productss .new_products.active {
+  display: flex;
+}
+.container-fluid .main .new_productss .new_products {
+  display: none;
+}
+.container-fluid .main .new_productss .new_products-item {
   width: 24%;
   background-color: rgb(255, 255, 255);
   border-radius: 10px;
@@ -114,11 +239,16 @@
   margin: 0.5%;
   box-shadow: 0px 2px 10px 0px rgb(121, 116, 116);
 }
-.container-fluid .main .new_products .new_products-item p {
+.container-fluid .main .new_productss .new_products-item p {
   color: red;
 }
-.container-fluid .main .new_products .new_products-slider--women,
-.container-fluid .main .new_products .new_products-slider--accessories {
+.container-fluid .main .new_productss .new_products-item a:hover .img-none {
+  display: block;
+}
+.container-fluid .main .new_productss .new_products-item a:hover .img-block {
+  display: none;
+}
+.container-fluid .main .new_productss .new_products-item .img-none {
   display: none;
 }
 
