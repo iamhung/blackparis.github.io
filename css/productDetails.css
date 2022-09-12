@@ -1,0 +1,64 @@
+.bg {
+  background: rgb(0, 0, 0);
+  height: 53px;
+}
+
+.productDetails {
+  width: 80%;
+  display: flex;
+  margin: 53px auto;
+}
+.productDetails .left {
+  width: 50%;
+  display: flex;
+}
+.productDetails .left .imgDetails {
+  display: block;
+  width: 18%;
+}
+.productDetails .left .imgDetails img {
+  width: 85%;
+  margin: 2px;
+}
+.productDetails .left .imgPrimary {
+  width: 80%;
+}
+.productDetails .left .imgPrimary img {
+  width: 100%;
+}
+.productDetails .mid {
+  width: 15%;
+}
+.productDetails .right {
+  width: 35%;
+}
+.productDetails .right button {
+  padding: 10px;
+  margin: 8px;
+}
+.productDetails .right .size {
+  margin-top: 30px;
+}
+.productDetails .right .addAmount button {
+  display: flex;
+}
+.productDetails .right .addAmount button p {
+  margin-left: 10px;
+  margin: auto;
+  font-size: 18px;
+  font-weight: 500;
+}
+.productDetails .right .addAmount button .icon {
+  display: grid;
+  margin: auto auto auto 20px;
+}
+.productDetails .right .info {
+  margin-top: 20px;
+  cursor: pointer;
+}
+.productDetails .right .info span.click p {
+  display: block;
+}
+.productDetails .right .info p {
+  display: none;
+}/*# sourceMappingURL=productDetails.css.map */

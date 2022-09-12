@@ -2,11 +2,11 @@ $bg-color:rgb(0, 0, 0);
 *{
     margin:0;
     padding:0;
-    text-align: center;
+    
 }
 .container-fluid{
-    margin:0;
-    padding:0;
+    
+    text-align: center;
     a{
         text-decoration: none;  
     } 
@@ -15,11 +15,13 @@ $bg-color:rgb(0, 0, 0);
         margin-top:13px
     }
     .banner{
+        
         video{
             z-index: 10;
         }
     }
     .nav{
+        text-align: center;
         width:100%;
         background-color: rgba(117, 115, 115, 0.096);
         position:fixed;
@@ -205,6 +207,7 @@ $bg-color:rgb(0, 0, 0);
    
     }
     .move{
+        text-align: center;
         display:none;
         &.display{
             display:flex;
@@ -225,6 +228,7 @@ $bg-color:rgb(0, 0, 0);
         }
     }
     .main{
+        text-align: center;
         width:80%;
         margin:auto;
         a{
@@ -291,11 +295,12 @@ $bg-color:rgb(0, 0, 0);
     }
 }
 .more1{
-    background-image: url(/img/NFT.webp);
+    background-image: url(/img/products/banner/NFT.webp);
     background-attachment: fixed;
     background-size: cover;
 }
 .more1,.more2{
+    text-align: center;
     padding:20px 0;
     .more{
         width:70%;
@@ -318,7 +323,7 @@ $bg-color:rgb(0, 0, 0);
         }
 }
 .more2{
-    background-image: url(/img/shop7.webp);
+    background-image: url(/img/products/banner/shop7.webp);
     background-attachment: fixed;
     background-size: cover;
 }
@@ -365,6 +370,7 @@ $bg-color:rgb(0, 0, 0);
 }
 
 .contacts{
+    text-align: center;
     width:60%;
     margin:auto;
     .contact{
@@ -416,6 +422,7 @@ $bg-color:rgb(0, 0, 0);
     }
 }
 .footer{
+    text-align: center;
     display:flex;
     width:100%;
     background:$bg-color;
@@ -456,3 +463,5 @@ $bg-color:rgb(0, 0, 0);
         }
     }
 }
+
+

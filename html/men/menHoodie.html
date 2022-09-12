@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>All products</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" class="">
+    <link rel="stylesheet" href="/style.css">
+    <link rel="stylesheet" href="/bootstrap/css/bootstrap.min.css" class="">
+    <link rel="stylesheet" href="/css/products.css" class="">
+</head>
+<body>
+    <!-- container -->
+    <div class="container-fluid">
+        <!-- nav -->
+        <div class="nav row">
+                <div class="logo col-4">
+                    <ul><li class=""><a href="/index.html">BlvckParis</a></li></ul>
+                </div>
+                <div class="col-6">
+                <ul>
+                    <li class="nav_women"><a href="/html/women/women.html">Women</a>
+                        <div class="line"></div>
+                        <div class="women_hover">              
+                            <div class="clothes">
+                                <a href="/html/women/womenTee.html">TEES</a>
+                                <a href="/html/women/womenPant.html">PANTS</a>
+                                <a href="/html/women/womenHoodie.html">HOODIES</a>
+                                <a href="/html/women/womenSweater.html">SWEATERS</a>
+                                <a href="/html/women/womenJacket.html">JACKETS</a>
+                                <a href="/html/women/womenCrop.html">CROPED</a>
+                            </div>
+                            <div class="women_img">
+                                <div class="women_img1">
+                                    <a href="/html/women/women.html" >ALL PRODUCTS</a>
+                                    <img class="img1" src="/img/products/women/shirts/Blvck Cropped Blazer 3.webp" >
+                                </div>
+                                <div class="women_img2">
+                                    <a href="/html/accessories.html">ACCESSORIES</a>
+                                    <img src="/img/products/accessories/Blvck Evil Teddy Bear Keychain 1.webp">
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="nav_men"><a href="/html/men/men.html">Men</a>
+                        <div class="line"></div>
+                        <div class="men_hover">
+                            <div class="clothes">
+                                <a href="/html/men/menTee.html">TEES</a>
+                                <a href="/html/men/menPant.html">PANTS</a>
+                                <a href="/html/men/menHoodie.html">HOODIES</a>
+                                <a href="/html/men/menSweater.html">SWEATERS</a>
+                                <a href="/html/men/menJacket.html">JACKETS</a>
+                            </div>
+                            <div class="men_img">
+                                <div class="men_img1">
+                                    <a href="/html/men/men.html" >ALL PRODUCTS</a>
+                                    <img src="/img/products/men/shirts/Blvck Nylon Shirt 1.webp" >
+                                </div>
+                                <div class="men_img2">
+                                    <a href="/html/accessories.html" >ACCESSORIES</a>
+                                    <img src="/img/products/accessories/Blvck Evil Teddy Bear Keychain 1.webp">
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class=""><a href="/html/accessories.html">Accessories</a></li>
+                    <li class=""><a href="/html/Allproducts.html">All Products</a></li>
+                    <li class=""><a href="/html/contact.html">Contact</a></li>
+                </ul>
+                </div>
+                <div class="col-2">
+                    <i class="fa-solid fa-magnifying-glass "></i>
+                    <a href="cart.html">
+                        <i class="fa-solid fa-cart-shopping " title="cart-shopping"></i>
+                    </a>
+                    <a>
+                        <i class="fa-regular fa-user " title="User"></i>
+                    </a>
+            </div>
+        </div>
+        <div class="move">
+            <a href="#"><img src="/img/logo_dọc.jpg"></a>
+        </div>
+    </div>
+    <div class="banner">
+        <h1>MEN-HOODIE</h1>
+    </div>
+    <!-- all products -->
+    <div class="all_products">
+        <script src="/js/products.js"></script>
+        <script>
+            const pds1 = document.querySelectorAll('.products1')
+            const pds2 = document.querySelectorAll('.products2')
+            const hoodies = document.querySelectorAll('.all_products .hoodie')
+            const womens = document.querySelectorAll('.all_products .female')
+            pds1.forEach((pd1)=>{
+                pd1.style.display='none'
+            })
+            pds2.forEach((pd2)=>{
+                pd2.style.display='none'
+            })
+            hoodies.forEach((hoodie)=>{
+                hoodie.style.display='block'
+            })
+            womens.forEach((women)=>{
+                women.style.display='none'
+            })
+        </script>
+    </div>
+    <!-- nextPage -->
+    <!-- <ul class="pagination">
+        <li class="page-item"><a class="page-link page1" href="#">Previous</a></li>
+        <li class="page-item "><a class="page-link page1 pr1 active" href="#">1</a></li>
+        <li class="page-item"><a class="page-link page2 pr2" href="#">2</a></li>
+        <li class="page-item"><a class="page-link page2" href="#">Next</a></li>
+    </ul> -->
+    <!-- footer -->
+    <div class="footer">
+        <div class="left">
+            <video autoplay loop muted>
+                <source src="/img/video/footer_video.mp4" width="20%"></source>
+            </video>
+        </div>
+        <div class="right">
+            <img src="/img/logo.webp">
+            <section>
+                <div class="footer1">
+                    <a href="">COLLECTIONS</a>
+                    <a href="">COLLECTIONS</a>
+                    <a href="">COLLECTIONS</a>
+                    <a href="">COLLECTIONS</a>
+                    <a href="">COLLECTIONS</a>
+                </div>
+                <div class="footer2">
+                    <a href="">INFORMATION</a>
+                    <a href="">INFORMATION</a>
+                    <a href="">INFORMATION</a>
+                    <a href="">INFORMATION</a>
+                    <a href="">INFORMATION</a>
+                </div>
+                <div class="footer3">
+                    <a href="">MORE</a>
+                    <a href="">MORE</a>
+                    <a href="">MORE</a>
+                    <a href="">MORE</a>
+                    <a href="">MORE</a>
+                </div>
+                <div class="footer4">
+                    <a href="">SOCIAL</a>
+                    <a href="">SOCIAL</a>
+                    <a href="">SOCIAL</a>
+                    <a href="">SOCIAL</a>
+                    <a href="">SOCIAL</a>
+                </div>
+                
+            </section>
+            <div class="iamhung">
+                <h5>Design By iamhung</p>
+                <i class="fa-brands fa-html5" title="HTML5"></i>
+                <i class="fa-brands fa-css3-alt" title="CSS"></i>
+                <i class="fa-brands fa-square-js" title="Javascript"></i>
+                <i class="fa-brands fa-sass" title="Sass"></i>
+            </div>
+        </div>
+    </div>
+    <script src="/style.js"></script>
+    <script src="/bootstrap/js/bootstrap.min.js"></script>
+</body>
+</html>
+    

@@ -1,12 +1,10 @@
 * {
   margin: 0;
   padding: 0;
-  text-align: center;
 }
 
 .container-fluid {
-  margin: 0;
-  padding: 0;
+  text-align: center;
 }
 .container-fluid a {
   text-decoration: none;
@@ -19,6 +17,7 @@
   z-index: 10;
 }
 .container-fluid .nav {
+  text-align: center;
   width: 100%;
   background-color: rgba(117, 115, 115, 0.096);
   position: fixed;
@@ -179,6 +178,7 @@
   z-index: 1;
 }
 .container-fluid .move {
+  text-align: center;
   display: none;
 }
 .container-fluid .move.display {
@@ -195,6 +195,7 @@
   box-shadow: 1px 1px 5px 2px rgb(247, 247, 247);
 }
 .container-fluid .main {
+  text-align: center;
   width: 80%;
   margin: auto;
 }
@@ -253,12 +254,13 @@
 }
 
 .more1 {
-  background-image: url(/img/NFT.webp);
+  background-image: url(/img/products/banner/NFT.webp);
   background-attachment: fixed;
   background-size: cover;
 }
 
 .more1, .more2 {
+  text-align: center;
   padding: 20px 0;
 }
 .more1 .more, .more2 .more {
@@ -281,7 +283,7 @@
 }
 
 .more2 {
-  background-image: url(/img/shop7.webp);
+  background-image: url(/img/products/banner/shop7.webp);
   background-attachment: fixed;
   background-size: cover;
 }
@@ -326,6 +328,7 @@
 }
 
 .contacts {
+  text-align: center;
   width: 60%;
   margin: auto;
 }
@@ -375,6 +378,7 @@
 }
 
 .footer {
+  text-align: center;
   display: flex;
   width: 100%;
   background: rgb(0, 0, 0);
