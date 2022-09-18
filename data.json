@@ -1,0 +1,64 @@
+{
+    "products":[
+        {   
+            "id" : 1,
+            "name": "Blvck Bold Floral Hoodie",
+            "price": 250000,
+            "sex":"men",
+            "type": "hoodie",
+            "image1": "url(../img/products/men/hoodies/Blvck Bold Floral Hoodie 1.webp)",
+            "image2": "url(../img/products/men/hoodies/Blvck Bold Floral Hoodie 2.webp)",
+            "description":
+                "Part of the BLVCK06 Collection, the 'Blvck Bold Floral Hoodie' features a unique embroidered floral logo on the chest and  on the back for a minimalist, streetwear look.Made from luxurious 100% Terry Cotton, all our hoodies are super soft to the touch and perfect for everyday wear.Fits regular size for male.The model is wearing L and is 1m86.",
+            "count": 1
+        },
+        {   
+            "id" : 1,
+            "name": "Branded Hooded Sweatshirt",
+            "price": 250000,
+            "sex":"men",
+            "type": "hoodie",
+            "image1": "url(../img/products/ffffffffff)",
+            "image2": "url(../img/products/ffffffffff)",
+            "description":
+                "fffffffffffffff",
+            "count": 1
+        },
+        {   
+            "id" : 1,
+            "name": "ffffffff",
+            "price": 250000,
+            "sex":"men",
+            "type": "hoodie",
+            "image1": "url(../img/products/ffffffffff)",
+            "image2": "url(../img/products/ffffffffff)",
+            "description":
+                "fffffffffffffff",
+            "count": 1
+        },
+        {   
+            "id" : 1,
+            "name": "ffffffff",
+            "price": 250000,
+            "sex":"men",
+            "type": "hoodie",
+            "image1": "url(../img/products/ffffffffff)",
+            "image2": "url(../img/products/ffffffffff)",
+            "description":
+                "fffffffffffffff",
+            "count": 1
+        },
+        {   
+            "id" : 1,
+            "name": "ffffffff",
+            "price": 250000,
+            "sex":"men",
+            "type": "hoodie",
+            "image1": "url(../img/products/ffffffffff)",
+            "image2": "url(../img/products/ffffffffff)",
+            "description":
+                "fffffffffffffff",
+            "count": 1
+        }
+    ]
+}
